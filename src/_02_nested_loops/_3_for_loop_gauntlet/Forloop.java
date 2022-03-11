@@ -32,22 +32,41 @@ for(int i8=0; i8<=12; i8++) {
     System.out.println("In "+i7+" I was "+i8);
     i7++;
 }
-for(int i9=0; i9<=2; i9++){
-    for(int i10=0; i10<=2; i10++){
-        System.out.println(i9+" "+i10);
+for(int i9=0; i9<=2; i9++) {
+    for (int i10 = 0; i10 <= 2; i10++) {
+        System.out.println(i9 + " " + i10);
     }
-    for(int i11=1; i11<=3; i11++){
+}
+    for(int i11=0; i11<=2; i11++){
         for(int i12=1; i12<=3; i12++){
-                System.out.print(i12-i11);
-System.out.println();
+                System.out.print(i12+i11*3+"  ");
+                if (i12 == 3){
+                    System.out.println();
+                }
 
             }
 
 
         }
+for(int i13=0; i13<=9; i13++) {
+    for(int i14=1; i14<=10; i14++) {
+        if (i14 + i13 <= 10) {
+            System.out.print(i13 + i14 + "  ");
+        }
+
+        System.out.print(i13 + i14 + 10 + "  ");
+
+if (i14==10){
+    System.out.println();
+
+}
+    }
+
+}
+
 
     }
 
 }
-    }
+
 
